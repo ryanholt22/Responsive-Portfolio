@@ -1,0 +1,80 @@
+
+* {
+    outline: 1px dotted red;
+    width: 100%;
+}
+
+body {
+    background-image: url(https://i.imgur.com/ZOcLM7h.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+   
+}
+
+
+.Container {
+    min-height: 100px;
+    width: 100%;
+    
+}
+
+.Header {
+    min-height: 60px;
+    width: 180px;
+    font-size: 40px;
+    background-color: darkcyan;
+    color: aliceblue;
+    margin-left: 100px;
+    position: fixed;
+}
+.Links1 {
+    margin-left: 200px;
+}
+
+.Main {
+    min-height:200px ;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: white;
+}
+
+h1 {
+    background-color: darkcyan;
+    color: white;
+    height: 50px;
+    width: 145px;
+}
+
+p {
+    font-family: cursive;
+}
+
+.image {
+    float: left;
+}
+
+.Links1 {
+    width: 50%;
+    height: 50px;
+    float: right;
+}
+
+.Links2 {
+    width: 50%;
+    height: 50px;
+    float: left;
+}
+
+.Links2 {
+    width: 50%;
+    height: 50px;
+    float: left;
+}
+
+.Links2 {
+    width: 50%;
+    height: 50px;
+    float: left;
+}
