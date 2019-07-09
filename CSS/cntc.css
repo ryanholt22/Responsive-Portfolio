@@ -1,0 +1,17 @@
+
+h1 {
+    font-family: 'Bahianita', cursive;
+}
+
+.container {
+    height: 650px;
+    background-color:whitesmoke !important;
+}
+
+footer {
+    border-top:5px solid #4aaaa5;
+    background-color: #666666;
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+}

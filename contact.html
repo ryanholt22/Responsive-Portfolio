@@ -1,39 +1,56 @@
 <!DOCTYPE html>
-    <html lang="en-us">
+<html lang="en-us">
+
 <head>
-
     <meta charset="UFT-8">
-    <title>How To Contact Me.</title>
-    <link rel="stylesheet" href="contact.css">
-    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="CSS\cntc.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Bahianita&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body> 
 
-<div class="first">
-<h1>How To Contact Me!</h1>
-<nav>
-        <a href="file:///C:/Users/16512/Basic-Portfolio/index.html">About</a>
-        <a href=portfolio.html>Portfolio</a>
-        <a href="contact.html">Contact</a>
+<body background="http://www.zingerbug.com/Backgrounds/background_images/blue_sand_stone.jpg">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-top: 10px;">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </div>
+        </div>
     </nav>
-</div>
-
-    <div class="container">
-        <h2 style="color: #4aaaa5;">Contact.</h2>
+    <div class="container" style="background-color: lightgray; margin-top:20px;">
+        <h1>How to contact me!</h1>
         <hr>
-        <h3>Name</h3>
-        <input type="text" placeholder="Your Name...">
-        <h3>Email</h3>
-        <input type="text" placeholder="example@gmail.com">
-        <h3>Message</h3>
-        <input class="message" type="text" placeholder="">
-        <input class="button" type="button" value="Submit">
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Name</label style="background-color: white;">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Email</label style="background-color: white;">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="comment">Message:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <input class="btn btn-primary" type="submit" value="Submit" style="margin-bottom:20px; "></input>
+        </form>
     </div>
-
-    
-    
-
-
+    <footer>
+    </footer>
 </body>
+
 </html>

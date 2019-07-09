@@ -1,0 +1,8 @@
+footer {
+    border-top:5px solid #4aaaa5;
+    background-color: #666666;
+    height: 80px;
+    width: 100%;
+    transform: translateY(220px);
+}
+

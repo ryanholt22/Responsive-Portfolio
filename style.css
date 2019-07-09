@@ -56,3 +56,20 @@ li {
 a {
     color: #777777;
 }
+
+@media (max-width:980px;) {
+
+}
+
+@media (max-width:768px;) {
+p {
+    font-size: 1.25rem;
+}
+}
+
+@media (max-width:640px;) {
+p {
+    font-size: 1.5rem;
+    background-color: grey;
+}
+}
